@@ -127,7 +127,7 @@ const Navbar: React.FC = () => {
         
         {/* Mobile menu, show/hide based on menu state */}
         {mobileMenuOpen && (
-          <div className="md:hidden mt-4 pb-2 bg-white/95 shadow-md rounded-lg">
+          <div className="md:hidden mt-4 pb-2 bg-blue-300/95 shadow-md rounded-lg">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {sections.map((section) => (
                 <a
